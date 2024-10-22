@@ -31,5 +31,9 @@ namespace WalletPaymentUi
                 this.DragMove();
         }
 
+        private void bntExit_Click(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Application.Current.Shutdown();
+        }
     }
 }

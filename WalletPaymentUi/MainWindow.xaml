@@ -145,7 +145,7 @@
                         <fa:ImageAwesome Icon="AngleRight" HorizontalAlignment="Right" Style="{StaticResource buttonIconExpand}" />
                     </Grid>
                 </Button>
-                <Button Style="{StaticResource menuButton}">
+                <Button x:Name="bntExit" Style="{StaticResource menuButton}" Click="bntExit_Click">
                     <Grid>
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
                             <fa:ImageAwesome Icon="WindowClose" Style="{StaticResource buttonIcon}" />
