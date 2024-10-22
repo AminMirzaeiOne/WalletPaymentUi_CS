@@ -18,5 +18,5 @@ Designing the user interface of a payment wallet in WPF<br />
 2 - Choose from the menu options<br />
 
 <h2>📷 Screenshots</h2>
-<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/1617367e-a3b1-47f4-b784-ad5bf6a8d9b2">
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/8401c78a-a692-4ec7-92ae-f29b3e75a480">
 <video width="674" alt="Capture28" src="https://github.com/user-attachments/assets/e21c93cf-3098-4966-97e4-053958a61c4c">
