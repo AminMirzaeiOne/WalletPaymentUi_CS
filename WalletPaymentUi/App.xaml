@@ -144,5 +144,25 @@
             </Style.Triggers>
         </Style>
 
+        <Style x:Key="activeTabButton" TargetType="Button" BasedOn="{StaticResource tabButton}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}" Padding="20 10 20 10" BorderThickness="0 0 0 2">
+                            <Border.BorderBrush>
+                                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                                    <GradientStop Color="#D489FF" Offset="0" />
+                                    <GradientStop Color="#7985FF" Offset="0.5" />
+                                    <GradientStop Color="#6AD8FD" Offset="1" />
+                                </LinearGradientBrush>
+                            </Border.BorderBrush>
+
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
     </Application.Resources>
 </Application>
