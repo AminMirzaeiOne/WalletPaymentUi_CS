@@ -164,5 +164,9 @@
             </Setter>
         </Style>
 
+        <Style x:Key="textLabel" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#fcfcfc" />
+        </Style>
+
     </Application.Resources>
 </Application>
