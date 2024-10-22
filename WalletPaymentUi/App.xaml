@@ -233,5 +233,11 @@
             <Setter Property="Margin" Value="17 0" />
         </Style>
 
+        <Style x:Key="whiteIcon" TargetType="fa:ImageAwesome">
+            <Setter Property="Foreground" Value="#f0f0f0" />
+            <Setter Property="Width" Value="15" />
+            <Setter Property="Height" Value="15" />
+        </Style>
+
     </Application.Resources>
 </Application>
