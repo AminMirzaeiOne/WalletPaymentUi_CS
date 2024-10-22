@@ -168,5 +168,19 @@
             <Setter Property="Foreground" Value="#fcfcfc" />
         </Style>
 
+        <Style TargetType="TextBox">
+            <Setter Property="Background" Value="#3F375F" />
+            <Setter Property="FocusVisualStyle" Value="{x:Null}" />
+            <Setter Property="Padding" Value="15 12" />
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="FontSize" Value="12" />
+            <Setter Property="Foreground" Value="#fcfcfc" />
+            <Style.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="15"/>
+                </Style>
+            </Style.Resources>
+        </Style>
+
     </Application.Resources>
 </Application>
