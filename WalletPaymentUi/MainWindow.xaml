@@ -145,6 +145,15 @@
                         <fa:ImageAwesome Icon="AngleRight" HorizontalAlignment="Right" Style="{StaticResource buttonIconExpand}" />
                     </Grid>
                 </Button>
+                <Button Style="{StaticResource menuButton}">
+                    <Grid>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                            <fa:ImageAwesome Icon="WindowClose" Style="{StaticResource buttonIcon}" />
+                            <TextBlock Text="Exit App" Style="{StaticResource buttonText}" />
+                        </StackPanel>
+                        <fa:ImageAwesome Icon="AngleRight" HorizontalAlignment="Right" Style="{StaticResource buttonIconExpand}" />
+                    </Grid>
+                </Button>
             </StackPanel>
 
             <!--Transaction Panel-->
