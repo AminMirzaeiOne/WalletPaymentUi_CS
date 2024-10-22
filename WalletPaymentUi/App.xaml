@@ -239,5 +239,12 @@
             <Setter Property="Height" Value="15" />
         </Style>
 
+        <Style x:Key="cardBorder" TargetType="Border">
+            <Setter Property="Height" Value="150" />
+            <Setter Property="CornerRadius" Value="25" />
+            <Setter Property="Padding" Value="10" />
+            <Setter Property="VerticalAlignment" Value="Top" />
+        </Style>
+
     </Application.Resources>
 </Application>
