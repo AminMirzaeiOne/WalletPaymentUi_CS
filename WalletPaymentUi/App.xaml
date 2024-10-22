@@ -77,5 +77,11 @@
             <Setter Property="Height" Value="18" />
         </Style>
 
+        <Style x:Key="buttonText" TargetType="TextBlock">
+            <Setter Property="Margin" Value="13 0 0 0" />
+            <Setter Property="FontSize" Value="12" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+        </Style>
+
     </Application.Resources>
 </Application>
